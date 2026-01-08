@@ -1,23 +1,35 @@
-# Laboratório Prático de Gestão de Vulnerabilidades – Fase 1: Serviços de Rede
+[![LinkedIn](https://img.shields.io/badge/LinkedIn--lightgrey?style=social&logo=linkedin)](https://www.linkedin.com/in/lucasareal/)
+# 🛡️ Laboratórios Práticos de Segurança da Informação
+**Portfólio Técnico de Lucas Vieira Areal**  
+Estudante de Segurança da Informação – FATEC São Caetano do Sul
 
-Este projeto é a **primeira fase** de um laboratório caseiro de segurança da informação, desenvolvido como parte da minha jornada acadêmica no curso de **Tecnologia em Segurança da Informação** na FATEC São Caetano do Sul. O objetivo é simular, documentar e refletir sobre cenários reais de identificação, exploração e remediação de vulnerabilidades — com foco em **construção de portfólio técnico**.
+Este repositório contém projetos hands-on desenvolvidos para aprimorar minhas habilidades em segurança ofensiva e defensiva, com foco em cenários reais de SOC, gestão de vulnerabilidades e análise de tráfego.
 
-## 🔍 Objetivo da Fase 1
-Identificar, explorar e documentar vulnerabilidades comuns em **serviços de rede mal configurados**, utilizando um ambiente controlado com:
-- **Kali Linux** (máquina de ataque)
-- **Metasploitable2** (máquina vulnerável)
+Todos os laboratórios são executados em ambientes **totalmente isolados** (Host-only), sem conexão à internet ou redes não autorizadas.
 
-## 🛠️ Ferramentas Utilizadas
-- `nmap` – varredura de rede e detecção de serviços
-    
-## ⚠️ Aviso Importante
-Este laboratório foi executado em um **ambiente isolado (Host-only)**, sem conexão com a internet ou redes corporativas.  
-**Não reproduza esses testes em sistemas que você não possui ou não tem autorização explícita para testar.**
+---
 
-## 📄 Licença
-Este projeto é destinado **exclusivamente a fins educacionais e de estudo**.  
-O código e os relatórios podem ser utilizados como referência, desde que citada a autoria.
+## 📂 Projetos
 
-> ℹ️ **Autor**: Lucas Areal  
-> 🎓 Estudante de Segurança da Informação – FATEC São Caetano do Sul  
-> 📧 lucas.areal1@hotmail.com
+### 🔍 1. [Gestão de Vulnerabilidades – Fase 1: Serviços de Rede](lab-01-vuln-management/)
+- **Foco:** Identificação e exploração de vulnerabilidades em serviços de rede (ex: FTP, Telnet).
+- **Ferramentas:** `nmap`, Metasploit.
+- **Habilidades demonstradas:** Varredura de rede, análise de vulnerabilidades, documentação técnica.
+- [Relatório Completo (PDF)](lab-01-vuln-management/LABORATORIO_01.pdf)
+
+### 🕵️ 2. [Análise de Tráfego de Rede com Wireshark e Zeek](lab-02-network-traffic/)
+- **Foco:** Correlação entre tráfego bruto e logs estruturados para detecção de reconhecimento de rede (scan SYN).
+- **Ferramentas:** `Wireshark`, `Zeek`, `nmap`.
+- **Habilidades demonstradas:** Análise forense de pacotes, interpretação de logs de rede, assinaturas de ataque.
+- [Relatório Completo (DOCX)](lab-02-network-traffic/LABORATORIO_02.docx)
+
+---
+
+## ⚠️ Aviso Ético
+Todos os testes foram realizados em ambientes controlados e isolados. **Nunca execute testes de segurança em sistemas sem permissão explícita.**
+
+## 📧 Contato
+lucas.areal1@hotmail.com
+
+## 📚 Licença
+Conteúdo para fins educacionais. Créditos devem ser mantidos em referências.
