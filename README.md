@@ -9,22 +9,6 @@ Todos os laboratórios são executados em ambientes **totalmente isolados** (Hos
 
 ---
 
-## 📂 Projetos
-
-### 🔍 1. [Gestão de Vulnerabilidades – Fase 1: Serviços de Rede](lab-01-vuln-management/)
-- **Foco:** Identificação e exploração de vulnerabilidades em serviços de rede (ex: FTP, Telnet).
-- **Ferramentas:** `nmap`, Metasploit.
-- **Habilidades demonstradas:** Varredura de rede, análise de vulnerabilidades, documentação técnica.
-- [Relatório Completo (PDF)](lab-01-vuln-management/LABORATORIO_01.pdf)
-
-### 🕵️ 2. [Análise de Tráfego de Rede com Wireshark e Zeek](lab-02-network-traffic/)
-- **Foco:** Correlação entre tráfego bruto e logs estruturados para detecção de reconhecimento de rede (scan SYN).
-- **Ferramentas:** `Wireshark`, `Zeek`, `nmap`.
-- **Habilidades demonstradas:** Análise forense de pacotes, interpretação de logs de rede, assinaturas de ataque.
-- [Relatório Completo (DOCX)](lab-02-network-traffic/LABORATORIO_02.docx)
-
----
-
 ## ⚠️ Aviso Ético
 Todos os testes foram realizados em ambientes controlados e isolados. **Nunca execute testes de segurança em sistemas sem permissão explícita.**
 
